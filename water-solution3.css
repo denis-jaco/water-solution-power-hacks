@@ -1,0 +1,10 @@
+body {background-color: white;
+
+
+}
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thin;}
