@@ -1,10 +1,48 @@
 body {background-color: white;
 
-
-}
-
-p.ex1 {
-    border: 1px solid black;
+    background-color: rgba(103, 166, 217, 0.623);
     outline-style: solid;
     outline-color: white;
     outline-width: thin;}
+
+    div.input {
+        position: auto;
+        left: 90px;
+        border: 3px solid rgba(103, 166, 217, 0.623)rgba;
+    
+      }
+
+      h2 {
+        position: ;
+        left: 30px;
+        border: 3px solid (103, 166, 217, 0.623);
+        text-align: center;
+      }
+
+
+     .comment {
+        position: static;
+        left: 30px;
+        border: 3px solid rgba(103, 166, 217, 0.623);
+      }
+
+      div.radio{
+        position: auto;
+        left: 90px;
+        border: 3px solid rgba(103, 166, 217, 0.623)ss;
+      }
+      .soft {
+        img-align: center;
+        position: auto;
+        left: 50px;
+        border: 3px solid rgba(13, 100, 172, 0.623)ss;}
+        .submit{
+           background-color: red;
+           style="width: 100px;" 
+        }
+.reset1{
+    color: black;
+    background-color: green;
+
+
+}

@@ -1,7 +1,10 @@
+.logo{
+  border: 3px solid rgba(0, 87, 158, 0);
 
+}
 h2 {
   text-align: center;
-  color: #9b0b2d;
+  color: rgb(68, 52, 125);
   text-transform: uppercase;
 }
 
@@ -19,9 +22,17 @@ h5 {
     text-transform: uppercase;
     color: #4CAF50;}
 
-p {text-align: center;
+.xxx {text-align: center;
+  color:rgb(68, 52, 125)
 }
 body {
     background-color: rgba(103, 166, 217, 0.623);
-    color: blue;
+    color: rgb(68, 52, 125);
+    border: 3px solid rgba(103, 166, 217, 0.623)ss;
+  }
+
+ 
+
+
+
   }

@@ -1,14 +1,75 @@
 <link rel="stylesheet" href="water-solution3.css">
 
 <html>
+  <div class="soft">
+    <img src="soft.jpg" alt="Girl in a jacket" style="width:500px;height: auto;px;">
+  </div>
 <h2>fill this form to help your sociaty </h2>
+<div class="input">
+<form action="">
+    <label for="text">first name:</label><br>
+     <input type="text" placeholder="first name" ><br><br>
+     <label for="text">second name:</label><br>
+     <input type="text" placeholder="second name" > <br><br>
 
-    <p><<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
-        
-        </p>
+     <div class="radio">
+     <p>Please select your COUNTRY:</p>
+  <input type="radio" id="TANZANIA" name="your-nation" value="TZ">
+  <label for="TANZANIA">TANZANIA</label> <i class="fas fa-clock" style="font-size:24px;"></i><br>
+  <input type="radio" id="KENYA" name="your-nation" value="KY">
+  <label for="KENYA">KENYA</label><br>
+  <input type="radio" id="NAIJA" name="your-nation" value="NG">
+  <label for="NIGERIA">NIGERIA</label><br>
+  <label for="SOUTH-AFRICA">S-AFRICA</label><br>
+     </div>
+
+  <br>  
+
+  <p>Please select your age:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+
+
+  <h1>YOUR COCIATY LANGUAGE </h1>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> SWAHILI </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">ZURU</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> EANGLISH </label><br><br>
+   </div>
+     
+     <input type="email" placeholder="email"><br><br>
+     <input type="number" placeholder="phone number"> <br><br>
+
+     <div class="comment">
+     <textarea width="10" rows="4" placeholder="message"></textarea>
+     </div><br>
+     
+
+     <input class="submit"
+      type="submit" width="8" rows="4" placeholder="submit">
+     
+      <input class="reset1"
+      type="reset" value="clear form">
+
+
+
+
+
+
+  </form>
+
+</div>
+
+<p>This is a paragraph too.</p>
+
+
+
+</html>
